@@ -1,0 +1,3 @@
+GET https://septa-otp.ibi-transit.com//otp/routers/default/index/patterns  HTTP/1.1
+
+ 
