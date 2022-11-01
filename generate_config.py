@@ -8,8 +8,8 @@ config_file.add_section("common_settings")
 
 # ADD SETTINGS TO SECTION
 config_file.set("common_settings", "gtfs_history_data_root", "C:\\Users\AYAB\OneDrive - Drexel University\drexel\DSCI 591\detour project\data\GTFS-RT-historical-2022")
-config_file.set("common_settings", "transitViewAll_history_data_root", 'C:\\Users\AYAB\OneDrive - Drexel University\drexel\DSCI 591\detour project\data\transitviewall-historical-2022')
-
+config_file.set("common_settings", "transitViewAll_history_data_root", 'C:\\Users\AYAB\OneDrive - Drexel University\drexel\DSCI 591\detour project\data\\transitviewall-historical-2022')
+config_file.set("common_settings", "GTFS", 'C:\\Users\AYAB\OneDrive - Drexel University\drexel\DSCI 591\detour project\data\gtfs_public_v202209020\google_bus')
 
 # SAVE CONFIG FILE
 with open(r"GTFS-detour\configurations.ini", 'w') as configfileObj:
