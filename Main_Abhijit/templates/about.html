@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}About this Project{% endblock %}
+
+{% block content %}
+
+    <div class = "container">
+        <br/>
+        <h1>Project Contributors</h1>
+        <h4>
+            {% for name in names %}
+                <li>{{name}}</li>
+            {% endfor %}
+        </h4>
+        <br/>
+    </div>
+
+{% endblock %}
